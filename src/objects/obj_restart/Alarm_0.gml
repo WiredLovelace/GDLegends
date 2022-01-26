@@ -4,7 +4,8 @@ audio_play_sound_on (global.music_emitter, global.music, 0, 1)
 with obj_trigger_par
 {
 	activated = 0
-	step = 0
+	next = 0
+	next_step = 0
 }
 
 global.bgcolor = global.initial_bgcolor

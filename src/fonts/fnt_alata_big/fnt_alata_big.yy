@@ -122,7 +122,7 @@
   "ranges": [
     {"lower":32,"upper":127,},
   ],
-  "regenerateBitmap": true,
+  "regenerateBitmap": false,
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {

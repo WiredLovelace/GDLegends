@@ -3,3 +3,6 @@ image_yscale = room_height / inih
 
 time = 1
 activated = 0
+
+next = 0
+next_step = 0
