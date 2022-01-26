@@ -17,8 +17,8 @@
   "width": 19,
   "height": 26,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "lvl_elms",
+    "path": "texturegroups/lvl_elms",
   },
   "swatchColours": null,
   "gridX": 0,

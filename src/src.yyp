@@ -134,6 +134,7 @@
     {"id":{"name":"__view_get","path":"scripts/__view_get/__view_get.yy",},"order":1,},
     {"id":{"name":"__view_set","path":"scripts/__view_set/__view_set.yy",},"order":3,},
     {"id":{"name":"__view_set_internal","path":"scripts/__view_set_internal/__view_set_internal.yy",},"order":5,},
+    {"id":{"name":"spr_top_status_bg","path":"sprites/spr_top_status_bg/spr_top_status_bg.yy",},"order":9,},
     {"id":{"name":"__init_view","path":"scripts/__init_view/__init_view.yy",},"order":7,},
     {"id":{"name":"__init_global","path":"scripts/__init_global/__init_global.yy",},"order":7,},
     {"id":{"name":"__global_object_depths","path":"scripts/__global_object_depths/__global_object_depths.yy",},"order":9,},
@@ -350,13 +351,14 @@
   ],
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"lvl_elms","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
     "IDEVersion": "2022.100.0.468",
   },
   "resourceVersion": "1.4",
-  "name": "GeometryDash",
+  "name": "src",
   "tags": [],
   "resourceType": "GMProject",
 }
