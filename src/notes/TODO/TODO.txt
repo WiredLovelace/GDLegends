@@ -1,0 +1,1 @@
+Should we store the `global.session_id' to a local file, to preserve session?
