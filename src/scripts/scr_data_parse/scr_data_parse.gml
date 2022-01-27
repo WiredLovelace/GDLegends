@@ -13,6 +13,12 @@ function scr_data_parse(str){
 	global.player_stars = file_text_read_real(file)
 	file_text_readln (file)
 	
+	global.player_coins = file_text_read_real (file)
+	file_text_readln (file)
+	
+	global.player_gems = file_text_read_real (file)
+	file_text_readln (file)
+	
 	global.current_level = file_text_read_real(file)
 	file_text_readln (file)
 	

@@ -16,6 +16,8 @@ global.server_url = "http://localhost" // The URL of the servers
 global.player_level = 0 // The player level
 global.player_exp = 0 // The EXP points of the player
 global.player_stars = 0
+global.player_coins = 0
+global.player_gems = 100
 global.player_name = "Player" // The name of the player
 
 global.current_level = 1 // The level_no we are currently in

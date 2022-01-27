@@ -1,2 +1,49 @@
 Create a `camera.respawning' so, when 1, don't optimise. It's set by 1 and 0 by obj_restart
-Create a new table in the db `bonus_claim', that table is dropped every 24 hours, and if the player is not there, they can claim the daily bonus
+
+  Create a new table in the db `bonus_claim', that table is dropped every 24 hours, and if the player is not there, they can claim the daily bonus
+  Also, there can be a column in the `users' table, that is like "bonus_progress", each time the bonus is claimed it's incremented by one, if the
+  user, in the 24 hours check the server does, is not in the `bonus_claim' table - before it's dropped -, set this counter back to 1.
+
+Fix the text size when creating a text popup
+
+Pause menu when "ESC" is pressed
+
+Close the topmost popup with the ESC key
+
+Pads and rings particles
+
+Sync rings size with music volume
+
+Robot and spider
+
+  Port all the levels from the original Geometry Dash to the dungeons
+  Should Map Packs also be ported? 0_o
+  
+Level editor and online levels
+
+Networking
+
+Finish UI
+
+Better optimisation
+
+Ranking
+
+Daily Missions
+
+Friends
+
+Store
+
+Inventory and items (there could be icons and colours?)
+
+Guilds (like Clans)
+
+Menu cool music and particles
+
+Rank points and stars? (Like... Rank points are obtained playing online matches and stars playing offline)
+
+Import the alata font (this is a Linux Game Maker bug, probably, it worked perfectly fine with Enigma -_-)
+
+  There are "Demon Tickets", basically, you get tickets by completing demon levels that let you play in the "Roulette"
+  Almost forget it, a roulette with cool and random prizes.

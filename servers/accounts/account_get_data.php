@@ -23,6 +23,8 @@ $data = $result->fetch_array (MYSQLI_ASSOC);
 echo $data ["level"] . "\n" .
     $data ["experience"] . "\n" .
     $data ["stars"] . "\n" .
+    $data ["coins"] . "\n" .
+    $data ["gems"] . "\n" .
     $data ["current_level"] . "\n" .
     $data ["cube"] . "\n" .
     $data ["ship"] . "\n" .

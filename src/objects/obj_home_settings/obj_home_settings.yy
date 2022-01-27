@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_home_menu_button",
-    "path": "sprites/spr_home_menu_button/spr_home_menu_button.yy",
+    "name": "spr_cogwheel_icon",
+    "path": "sprites/spr_cogwheel_icon/spr_cogwheel_icon.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/GUI/Home.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_home_join_world",
+  "name": "obj_home_settings",
   "tags": [],
   "resourceType": "GMObject",
 }

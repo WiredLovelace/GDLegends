@@ -6,6 +6,7 @@ if (global.current_level < to_level)
 	global.current_level = to_level // If we haven't beaten this level already
 	
 	global.player_exp += global.give_stars * 10
+	global.player_coins += global.give_stars * 5
 }
 
 audio_stop_all ()

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Popups",
-    "path": "folders/Sprites/GUI/Popups.yy",
+    "name": "Icons",
+    "path": "folders/Sprites/GUI/Shared/Icons.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_icon_mail",

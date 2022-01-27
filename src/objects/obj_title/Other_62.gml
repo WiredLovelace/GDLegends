@@ -14,8 +14,6 @@ if ds_map_find_value (async_load, "id") == loggedin_req
 		
 		global.loggedin = 1
 		global.player_name = res
-		
-		load_req = http_post_string (global.server_url + "/accounts/account_get_data.php", "sid=" + global.session_id)
 	}
 }
 
@@ -31,5 +29,6 @@ if (ds_map_find_value (async_load, "id")) == load_req
 		}
 		
 		scr_data_parse (res)
+		room_goto (rm_main_menu) // When we are finished loading, we can go to the menu
 	}
 }
