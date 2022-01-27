@@ -1,0 +1,16 @@
+There are 5 game modes:
+
+- The editor *Offline*
+  What can I say? it's just a level editor.
+- Community *Offline*
+  There are all the levels created by the players using the editor.
+- Race *Online*
+  Basically, you and a group of people (that can be invited, or joined if the room is public) try to finish a level.
+  The amount of rewards you get is based in the position you reached the win_wall, basically, the first ones get the most
+  rewards. You can choose for random online levels with a chosen difficulty, or specify a level.
+- Versus *Online*
+  In this mode you can do a versus against a group of people (that can be invited, or joined if the room is public), the first one
+  to complete the level wins. (or you can choose the faster in complete the level, the less attempts, the first one, etc)
+- Arcade *Online*
+  This mode is based in "Move or Die", basically, there are different minigames that are chosen randomly. It can involve versus, race,
+  or some other world challenges. I still have to think in the minigames.

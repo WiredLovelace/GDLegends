@@ -1,4 +1,4 @@
-Create a `camera.respawning' so, when 1, don't optimise. It's set by 1 and 0 by obj_restart
+Player experience background fill
 
   Create a new table in the db `bonus_claim', that table is dropped every 24 hours, and if the player is not there, they can claim the daily bonus
   Also, there can be a column in the `users' table, that is like "bonus_progress", each time the bonus is claimed it's incremented by one, if the
