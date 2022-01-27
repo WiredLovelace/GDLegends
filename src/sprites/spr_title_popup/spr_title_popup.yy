@@ -84,7 +84,7 @@
     "tileMode": [
       0,
       0,
-      1,
+      0,
       0,
       0,
     ],
@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Shared",
-    "path": "folders/Sprites/GUI/Shared.yy",
+    "name": "PopUps",
+    "path": "folders/Sprites/GUI/Shared/PopUps.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_title_popup",

@@ -1,3 +1,6 @@
+if (!room_exists (rm_stereo_madness + ((lvl_no * (global.dungeons_page + 1) - 1))))
+	exit;
+
 draw_self ()
 
 if global.current_level > (lvl_no * (global.dungeons_page + 1))

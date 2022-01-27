@@ -47,3 +47,5 @@ Import the alata font (this is a Linux Game Maker bug, probably, it worked perfe
 
   There are "Demon Tickets", basically, you get tickets by completing demon levels that let you play in the "Roulette"
   Almost forget it, a roulette with cool and random prizes.
+  
+A tutorial when new accounts is created, like... Showing buttons, describing them, and stuff like that

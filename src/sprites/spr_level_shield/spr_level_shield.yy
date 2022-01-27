@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Shared",
-    "path": "folders/Sprites/GUI/Shared.yy",
+    "name": "Home",
+    "path": "folders/Sprites/GUI/Home.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_level_shield",

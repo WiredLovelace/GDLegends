@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_home_play",
-    "path": "sprites/spr_home_play/spr_home_play.yy",
+    "name": "spr_frame1",
+    "path": "sprites/spr_frame1/spr_frame1.yy",
   },
   "solid": false,
   "visible": true,
@@ -13,8 +13,8 @@
   },
   "physicsObject": false,
   "physicsSensor": false,
-  "physicsShape": 0,
-  "physicsGroup": 0,
+  "physicsShape": 1,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Home",
-    "path": "folders/Objects/GUI/Home.yy",
+    "name": "PlayModes",
+    "path": "folders/Objects/GUI/PlayModes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_home_play",
+  "name": "obj_play_modes_mode",
   "tags": [],
   "resourceType": "GMObject",
 }

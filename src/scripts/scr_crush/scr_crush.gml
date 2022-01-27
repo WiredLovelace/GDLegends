@@ -10,6 +10,7 @@ function scr_crush() {
 	pd = instance_create (x, y, obj_par2)
 	pd.sprite_index = sprite_index
 	pd.image_speed = 0
+	pd.image_index = global.cube
 	pd.image_blend = global.col1
 	pd.spd = 0.2
 	pd.image_xscale = image_xscale

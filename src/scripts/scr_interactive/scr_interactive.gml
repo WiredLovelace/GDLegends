@@ -118,31 +118,28 @@ function scr_interactive() {
 		trail = 1
 	}
 
-	if place_meeting (x, y, obj_cube_portal) && object_index != obj_player
+	if place_meeting (x, y, obj_cube_portal)
 	{
 		scr_transform (obj_player)
 	}
 
-	if place_meeting (x, y, obj_ship_portal) && object_index != obj_ship
+	if place_meeting (x, y, obj_ship_portal)
 	{
 		scr_transform (obj_ship)
 	}
 
-	if place_meeting (x, y, obj_ball_portal) && object_index != obj_ball
+	if place_meeting (x, y, obj_ball_portal)
 	{
 		scr_transform (obj_ball)
 	}
 
-	if place_meeting (x, y, obj_ufo_portal) && object_index != obj_ufo
+	if place_meeting (x, y, obj_ufo_portal)
 	{
 		scr_transform (obj_ufo)
 	}
 
-	if place_meeting (x, y, obj_wave_portal) && object_index != obj_wave
+	if place_meeting (x, y, obj_wave_portal)
 	{
 		scr_transform (obj_wave)
 	}
-
-
-
 }
