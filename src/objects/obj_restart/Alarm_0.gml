@@ -11,6 +11,6 @@ with obj_trigger_par
 global.bgcolor = global.initial_bgcolor
 global.gcolor = merge_color (global.initial_gcolor, c_black, 0.3)
 
-instance_activate_all () // Activate all instances before starting playing
+obj_camera.respawning = 0
 
 instance_destroy ()

@@ -1,5 +1,11 @@
 /// @description  Optimisations
 
+if (respawning)
+{
+	instance_activate_all ()
+	exit;
+}
+
 instance_deactivate_all (true)
 instance_activate_region (__view_get( e__VW.XView, 0 ) - 200, __view_get( e__VW.YView, 0 ) - 64, __view_get( e__VW.WView, 0 ) + 200, __view_get( e__VW.HView, 0 ) + 64, true)
 /*instance_deactivate_all (true)
