@@ -1,4 +1,1 @@
-draw_set_color (c_black)
-draw_set_alpha (0.5)
-draw_rectangle (__view_get( e__VW.XView, 0 ), __view_get( e__VW.YView, 0 ), __view_get( e__VW.WView, 0 ), __view_get( e__VW.HView, 0 ), false)
-draw_set_alpha (1)
+draw_sprite_ext (spr_negrito, 0, x, y, camera_get_view_width (view_camera [0]), camera_get_view_height (view_camera [0]), 0, c_white, 0.5)

@@ -9,3 +9,8 @@ next = 0
 next_step = 0
 
 activated = 0
+
+selected = 0
+group = 0
+col = 0
+type = 2

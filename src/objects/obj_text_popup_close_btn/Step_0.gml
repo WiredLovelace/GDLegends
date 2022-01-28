@@ -55,4 +55,3 @@ if (!instance_exists (pop_parent))
 image_alpha = pop_parent.image_xscale / pop_parent.target_xscale
 // image_xscale = image_xscale * (pop_parent.image_xscale / pop_parent.target_xscale)
 image_yscale = (image_xscale / scale_start) * yscale
-y = (pop_parent.y + (pop_parent.sprite_height / 2)) - 75

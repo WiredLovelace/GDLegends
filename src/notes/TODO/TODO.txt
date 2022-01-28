@@ -1,5 +1,10 @@
 Player experience background fill
 
+  global.col basically, so we can store and restore user defined colours. Also, in the create event of all the objects whose colour can be changed, set
+  its image blend to `global.col [col]'.
+  
+When changing an object's colour (using global.col), do `image_blend = global.col [col]' as well.
+
   Create a new table in the db `bonus_claim', that table is dropped every 24 hours, and if the player is not there, they can claim the daily bonus
   Also, there can be a column in the `users' table, that is like "bonus_progress", each time the bonus is claimed it's incremented by one, if the
   user, in the 24 hours check the server does, is not in the `bonus_claim' table - before it's dropped -, set this counter back to 1.

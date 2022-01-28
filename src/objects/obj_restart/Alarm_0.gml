@@ -9,7 +9,7 @@ with obj_trigger_par
 }
 
 global.bgcolor = global.initial_bgcolor
-global.gcolor = merge_color (global.initial_gcolor, c_black, 0.3)
+global.gcolor = global.initial_gcolor
 
 obj_camera.respawning = 0
 
