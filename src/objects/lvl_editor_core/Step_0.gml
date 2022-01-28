@@ -12,10 +12,7 @@ if (keyboard_check_pressed (vk_enter))
 		global.gcolor = global.initial_gcolor
 		global.bgcolor = global.initial_bgcolor
 		
-		with (lvl_editor_objsel)
-		{
-			visible = false
-		}
+		instance_deactivate_object (lvl_editor_objsel)
 		
 		if (global.selected_obj != noone)
 		{
@@ -49,10 +46,7 @@ if (keyboard_check_pressed (vk_enter))
 		global.gcolor = c_white
 		global.bgcolor = c_white
 		
-		with (lvl_editor_objsel)
-		{
-			visible = true
-		}
+		instance_activate_object (lvl_editor_objsel)
 		
 		instance_destroy (obj_player)
 	}

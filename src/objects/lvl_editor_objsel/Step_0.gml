@@ -45,11 +45,16 @@ if (mouse_check_button_released (mb_left) && position_meeting (mouse_x, mouse_y,
 	frame = 4
 	now = 1
 	
-	alarm[0] = 20
+	alarm[0] = 1
 }
 
 if objsel_id == undefined
 	exit
+	
+image_index = 0
+	
+if global.place_obj == tosel
+	image_index = 2
 	
 if global.selecting_type == 0
 {
