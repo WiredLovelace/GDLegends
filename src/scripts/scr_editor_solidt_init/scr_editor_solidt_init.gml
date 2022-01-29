@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_editor_solidt_init(){
 	// Initialise solid table
-	global.solidt[0] = obj_wall
+	global.solidt [0] = obj_wall
 	
 	array_push (global.solidt, obj_grid7)
 	array_push (global.solidt, obj_grid1)

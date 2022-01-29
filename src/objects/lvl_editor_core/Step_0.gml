@@ -23,6 +23,8 @@ if (keyboard_check_pressed (vk_enter))
 			}
 		}
 		
+		camera_set_view_size (view_camera [0], 1280, 720)
+		
 		audio_play_sound_on (global.music_emitter, global.music, 1, 0)
 	}
 	else
@@ -43,10 +45,17 @@ if (keyboard_check_pressed (vk_enter))
 			}
 		}
 		
+		global.spdboost = 1
+		global.yscroll =1 
+		global.g2y = 0
+		global.g1y = room_height - 164
+		
 		global.gcolor = c_white
 		global.bgcolor = c_white
 		
 		instance_activate_object (lvl_editor_objsel)
+		
+		camera_set_view_size (view_camera [0], 1920, 1080)
 		
 		instance_destroy (obj_player)
 	}
@@ -62,6 +71,7 @@ if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito
 	mouse_x < (camera_get_view_x (view_camera [0]) + 120) + (selecting_text_width [0] / 2) &&
 	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
 {
+	global.selecting_page = 0
 	global.selecting_type = 0
 }
 
@@ -71,6 +81,7 @@ if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito
 	mouse_x < (camera_get_view_x (view_camera [0]) + 320) + (selecting_text_width [0] / 2) &&
 	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
 {
+	global.selecting_page = 0
 	global.selecting_type = 1
 }
 
@@ -80,6 +91,7 @@ if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito
 	mouse_x < (camera_get_view_x (view_camera [0]) + 520) + (selecting_text_width [0] / 2) &&
 	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
 {
+	global.selecting_page = 0
 	global.selecting_type = 2
 }
 
@@ -89,6 +101,7 @@ if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito
 	mouse_x < (camera_get_view_x (view_camera [0]) + 750) + (selecting_text_width [0] / 2) &&
 	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
 {
+	global.selecting_page = 0
 	global.selecting_type = 3
 }
 

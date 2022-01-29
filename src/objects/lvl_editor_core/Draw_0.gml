@@ -36,8 +36,6 @@ if (selecting_text_width [3] == -1)
 	selecting_text_height [3] = string_height ("Decoration")
 }
 
-show_debug_message (selecting_text_width)
-
 draw_set_colour (make_colour_rgb (190, 181, 182))
 if (global.selecting_type == 0)
 	draw_set_colour (make_colour_rgb (246, 225, 156))

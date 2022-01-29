@@ -76,5 +76,14 @@ if global.selecting_type == 0
 		exit
 	}
 	
-	tosel = global.trapst[tosel_id]
+	tosel = global.trapst [tosel_id]
+} else if global.selecting_type == 2
+{
+	if (tosel_id > array_length (global.specit) - 1)
+	{
+		tosel = -1
+		exit
+	}
+	
+	tosel = global.specit [tosel_id]
 }

@@ -15,6 +15,9 @@ objsel[20] = 0
 offsetx = 0
 offsety = 900
 
+var cpage_left = instance_create_layer (302, 960, "EditorCore", lvl_editor_change_page)
+cpage_left.image_xscale = -1
+
 for (var i = 0; i < 20; i++)
 {
 	objsel[i] = instance_create_layer (427 + offsetx, offsety, "EditorCore", lvl_editor_objsel)
@@ -38,6 +41,8 @@ for (var i = 0; i < 20; i++)
 	
 	offsetx += 122
 }
+
+instance_create_layer (1650, 960, "EditorCore", lvl_editor_change_page)
 
 var rect = instance_create_layer (0, 0, "EditorCore", lvl_editor_gui)
 rect.depth = depth + 2

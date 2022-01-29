@@ -13,6 +13,8 @@ global.session_id = "" // Here we store the $_SESSION id
 global.server_url = "http://localhost" // The URL of the servers
 
 // Player Stats
+global.loggedin = 0
+
 global.player_level = 0 // The player level
 global.player_exp = 0 // The EXP points of the player
 global.player_stars = 0

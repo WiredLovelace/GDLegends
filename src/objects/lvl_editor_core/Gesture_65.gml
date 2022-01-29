@@ -13,7 +13,6 @@ if (scr_editor_can_click ())
 	if (position_empty (event_data [? "posX"], event_data [? "posY"]))
 	{
 		global.selected_obj = noone
-		show_debug_message ("empty :'c")
 		exit
 	}
 		
