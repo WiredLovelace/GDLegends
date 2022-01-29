@@ -56,10 +56,11 @@ image_index = 0
 if global.place_obj == tosel
 	image_index = 2
 	
+if (tosel_id == -1)
+	tosel_id = objsel_id + (20 * global.selecting_page)
+
 if global.selecting_type == 0
-{
-	var tosel_id = objsel_id + (20 * global.selecting_page)
-	
+{	
 	if (tosel_id > array_length (global.solidt) - 1)
 	{
 		tosel = -1
@@ -67,4 +68,13 @@ if global.selecting_type == 0
 	}
 	
 	tosel = global.solidt [tosel_id]
+} else if global.selecting_type == 1
+{
+	if (tosel_id > array_length (global.trapst) - 1)
+	{
+		tosel = -1
+		exit
+	}
+	
+	tosel = global.trapst[tosel_id]
 }

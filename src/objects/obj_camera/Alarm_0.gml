@@ -1,6 +1,6 @@
 /// @description  Optimisations
 
-if respawning ||  room != rm_lvl_editor
+if respawning ||  room == rm_lvl_editor
 {
 	instance_activate_all ()
 	exit;

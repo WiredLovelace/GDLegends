@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "editor",
-    "path": "folders/Scripts/editor.yy",
+    "name": "tables",
+    "path": "folders/Scripts/editor/tables.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_transform_selectedobj",
+  "name": "scr_editor_trapst_init",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -55,6 +55,43 @@ if (keyboard_check_pressed (vk_enter))
 // Apply transformations to the selected object
 scr_transform_selectedobj ()
 
+// Change the selected type
+if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito * -1) > depth) &&
+	mouse_x > (camera_get_view_x (view_camera [0]) + 120) - (selecting_text_width[0] / 2) &&
+	mouse_y > (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) - (selecting_text_height [0] / 2) &&
+	mouse_x < (camera_get_view_x (view_camera [0]) + 120) + (selecting_text_width [0] / 2) &&
+	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
+{
+	global.selecting_type = 0
+}
+
+if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito * -1) > depth) &&
+	mouse_x > (camera_get_view_x (view_camera [0]) + 320) - (selecting_text_width[0] / 2) &&
+	mouse_y > (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) - (selecting_text_height [0] / 2) &&
+	mouse_x < (camera_get_view_x (view_camera [0]) + 320) + (selecting_text_width [0] / 2) &&
+	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
+{
+	global.selecting_type = 1
+}
+
+if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito * -1) > depth) &&
+	mouse_x > (camera_get_view_x (view_camera [0]) + 520) - (selecting_text_width[0] / 2) &&
+	mouse_y > (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) - (selecting_text_height [0] / 2) &&
+	mouse_x < (camera_get_view_x (view_camera [0]) + 520) + (selecting_text_width [0] / 2) &&
+	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
+{
+	global.selecting_type = 2
+}
+
+if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito * -1) > depth) &&
+	mouse_x > (camera_get_view_x (view_camera [0]) + 750) - (selecting_text_width[0] / 2) &&
+	mouse_y > (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) - (selecting_text_height [0] / 2) &&
+	mouse_x < (camera_get_view_x (view_camera [0]) + 750) + (selecting_text_width [0] / 2) &&
+	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
+{
+	global.selecting_type = 3
+}
+
 // Camera pan
 if (mouse_check_button_pressed (mb_middle) && !global.testing)
 {
