@@ -7,6 +7,11 @@ global.gcolor = c_white
 global.selecting_type = 0 // This is the type we are selecting. Check notes for more info.
 global.selecting_page = 0 // The page of the type we are selecting
 
+hide = 0 // Set to 1 to hide the UI
+lid = layer_get_id ("EditorCore")
+
+can_pan = 1 // If 0, camera cannot be dragged
+
 scr_editor_tables_init() // Initialise object "tables"
 
 gesture_tap_count (false)
@@ -44,8 +49,8 @@ for (var i = 0; i < 20; i++)
 
 instance_create_layer (1650, 960, "EditorCore", lvl_editor_change_page)
 
-var rect = instance_create_layer (0, 0, "EditorCore", lvl_editor_gui)
-rect.depth = depth + 2
+rect = instance_create_layer (0, 0, "EditorCore", lvl_editor_gui)
+rect.depth = depth + 3
 
 // Editor variables
 global.place_obj = noone // The object we have selected to build with

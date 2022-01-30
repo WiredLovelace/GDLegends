@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_polargeist",
+  "soundFile": "Polargeist",
   "duration": 0.0,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_polargeist",
+  "name": "Polargeist",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -10,4 +10,6 @@ function scr_editor_can_click(){
 			&& !position_meeting (event_data [? "posX"], event_data [? "posY"], lvl_editor_objsel)
 			&& !position_meeting (event_data [? "posX"], event_data [? "posY"], obj_ground)
 			&& !position_meeting (event_data [? "posY"], event_data [? "posY"], obj_ground2)
+			&& !position_meeting (event_data [? "posX"], event_data [? "posY"], lvl_editor_settings)
+			&& !position_meeting (event_data [? "posX"], event_data [? "posY"], obj_title_popup)
 }

@@ -1,5 +1,22 @@
 /// @description Editor logic
 
+// Hide UI
+if hide//  && layer_get_visible (lid) // if the layer is visible
+{
+	layer_set_visible (lid, 0)
+		
+	instance_deactivate_object (lvl_editor_objsel)
+		
+	rect.visible = 0
+} else if !hide && !layer_get_visible (lid)
+{
+	layer_set_visible (lid, 1)
+	
+	instance_activate_object (lvl_editor_objsel)
+	
+	rect.visible = 1
+}
+
 // Switch testing
 if (keyboard_check_pressed (vk_enter))
 {
@@ -110,13 +127,13 @@ if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito
 }
 
 // Camera pan
-if (mouse_check_button_pressed (mb_middle) && !global.testing)
+if (mouse_check_button_pressed (mb_middle) && !global.testing && can_pan)
 {
 	drag_x = mouse_x
 	drag_y = mouse_y
 }
 
-if (mouse_check_button (mb_middle) && !global.testing)
+if (mouse_check_button (mb_middle) && !global.testing && can_pan)
 {
 	camera_set_view_pos (view_camera [0],
 		drag_x - (mouse_x - camera_get_view_x (view_camera [0])),
