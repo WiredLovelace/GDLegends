@@ -71,7 +71,8 @@ if (mouse_check_button_released (mb_left) && !global.testing && ((global.negrito
 	mouse_x < (camera_get_view_x (view_camera [0]) + 120) + (selecting_text_width [0] / 2) &&
 	mouse_y < (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2))
 {
-	global.selecting_page = 0
+	global.selecting_page = 0 // TODO: This doesn't work, why? it makes no sense
+							  // Should I check if the selected type has this many pages instead?
 	global.selecting_type = 0
 }
 

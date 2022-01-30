@@ -14,6 +14,8 @@ function scr_editor_solidt_init(){
 	array_push (global.solidt, obj_grid8)
 	
 	array_push (global.solidt, obj_regular_platform)
+	array_push (global.solidt, obj_regular_platform1)
+	array_push (global.solidt, obj_regular_platform2)
 	
 	array_push (global.solidt, obj_tile1)
 	array_push (global.solidt, obj_tile2)
@@ -27,4 +29,24 @@ function scr_editor_solidt_init(){
 	array_push (global.solidt, obj_brick2)
 	array_push (global.solidt, obj_brick3)
 	array_push (global.solidt, obj_brick4)
+	
+	array_push (global.solidt, obj_chippedBlock1)
+	array_push (global.solidt, obj_chippedBlock2)
+	array_push (global.solidt, obj_chippedBlock3)
+	array_push (global.solidt, obj_chippedBlock4)
+	array_push (global.solidt, obj_chippedBlock5)
+	array_push (global.solidt, obj_chippedBlock6)
+	
+	array_push (global.solidt, obj_blackBlock1)
+	array_push (global.solidt, obj_blackBlock2)
+	array_push (global.solidt, obj_blackBlock3)
+	array_push (global.solidt, obj_blackBlock4)
+	array_push (global.solidt, obj_blackBlock5)
+	array_push (global.solidt, obj_blackBlock6)
+	array_push (global.solidt, obj_blackBlock7)
+	
+	array_push (global.solidt, obj_wavy_platform1)
+	array_push (global.solidt, obj_wavy_platform2)
+	array_push (global.solidt, obj_wavy_platform3)
+	array_push (global.solidt, obj_wavy_platform4)
 }
