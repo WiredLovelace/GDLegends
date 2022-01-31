@@ -25,6 +25,6 @@ music_prev.depth = popup.depth - 1
 music_prev.image_xscale = -1
 music_prev.pop_parent = popup
 
-music_name = instance_create_layer (0, 0, "Popups", pop_lvlsettings_mname)
+music_name = instance_create_layer (0, 0, "Popups", pop_lvlsettings_titles)
 music_name.depth = popup.depth - 1
 music_name.popup = popup
