@@ -39,7 +39,6 @@ if (selecting_text_width [3] == -1)
 draw_set_colour (make_colour_rgb (190, 181, 182))
 if (global.selecting_type == 0)
 	draw_set_colour (make_colour_rgb (246, 225, 156))
-// draw_rectangle ((camera_get_view_x (view_camera [0]) + 120) - (selecting_text_width[0] / 2), (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) - (selecting_text_height [0] / 2), (camera_get_view_x (view_camera [0]) + 120) + (selecting_text_width [0] / 2), (camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35)) + (selecting_text_height [0] / 2), false)
 draw_text (camera_get_view_x (view_camera [0]) + 120, camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35), "Solids")
 
 draw_set_colour (make_colour_rgb (190, 181, 182))
@@ -56,3 +55,13 @@ draw_set_colour (make_colour_rgb (190, 181, 182))
 if (global.selecting_type == 3)
 	draw_set_colour (make_colour_rgb (246, 225, 156))
 draw_text (camera_get_view_x (view_camera [0]) + 750, camera_get_view_y (view_camera [0]) + (camera_get_view_height (view_camera [0]) / 1.35), "Decoration")
+
+if global.selected_obj < 0 || global.selected_obj == -1
+	exit
+	
+draw_set_colour (c_aqua)
+draw_set_alpha (0.6)
+draw_rectangle (global.selected_obj.x - (global.selected_obj.sprite_width / 2), global.selected_obj.y - (global.selected_obj.sprite_height / 2),
+				global.selected_obj.x + (global.selected_obj.sprite_width / 2), global.selected_obj.y + (global.selected_obj.sprite_height / 2),
+				0)
+draw_set_alpha (1)

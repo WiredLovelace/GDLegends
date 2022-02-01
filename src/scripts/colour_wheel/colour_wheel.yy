@@ -6,7 +6,7 @@
     "path": "folders/Scripts/popups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pop_text",
+  "name": "colour_wheel",
   "tags": [],
   "resourceType": "GMScript",
 }

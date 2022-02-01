@@ -31,15 +31,6 @@ if (keyboard_check_pressed (vk_enter))
 		
 		instance_deactivate_object (lvl_editor_objsel)
 		
-		if (global.selected_obj != noone)
-		{
-			with (global.selected_obj)
-			{
-				// TODO: global.col
-				image_blend = c_white
-			}
-		}
-		
 		camera_set_view_size (view_camera [0], 1280, 720)
 		
 		audio_play_sound_on (global.music_emitter, global.music, 1, 0)
@@ -52,14 +43,6 @@ if (keyboard_check_pressed (vk_enter))
 		if (instance_exists (obj_restart))
 		{
 			instance_destroy (obj_restart)
-		}
-		
-		if (global.selected_obj != noone)
-		{
-			with (global.selected_obj)
-			{
-				image_blend = c_aqua
-			}
 		}
 		
 		global.spdboost = 1

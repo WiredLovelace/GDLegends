@@ -1,4 +1,7 @@
-/// @description TODO: Change the song
+/// @description Change the song
+
+if !((global.negrito * -1) > depth)
+	exit
 
 global.music += 1 * image_xscale
 

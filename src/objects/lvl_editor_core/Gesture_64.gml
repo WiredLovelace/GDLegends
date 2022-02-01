@@ -2,11 +2,6 @@
 
 if (scr_editor_can_click () && global.place_obj != noone)
 {
-	// TODO: image_blend = global.col [col]
-	if (global.selected_obj != noone)
-		with (global.selected_obj)
-			image_blend = c_white
-	
 	boj = instance_create_layer (mouse_x, mouse_y, "LevelInstances", global.place_obj)
 	global.selected_obj = boj
 	with (boj)

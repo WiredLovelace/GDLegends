@@ -1,2 +1,2 @@
-/// @description Delete one to negrito
-global.negrito -= 1
+/// @description Restore negrito
+global.negrito -= negrito_add == -1 ? 1 : negrito_add

@@ -1,6 +1,3 @@
-/// @description Draw titles
+/// @description Draw
 
 draw_self ()
-
-if popup == -1 || !instance_exists (popup) || popup.closing
-	exit
