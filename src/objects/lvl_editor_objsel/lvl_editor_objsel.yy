@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "LevelEditor",
-    "path": "folders/Objects/GUI/LevelEditor.yy",
+    "name": "Editor",
+    "path": "folders/Objects/GUI/LevelEditor/Editor.yy",
   },
   "resourceVersion": "1.0",
   "name": "lvl_editor_objsel",

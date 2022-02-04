@@ -122,3 +122,12 @@ if (mouse_check_button (mb_middle) && !global.testing && can_pan)
 		drag_x - (mouse_x - camera_get_view_x (view_camera [0])),
 		drag_y - (mouse_y - camera_get_view_y (view_camera [0])))
 }
+
+// Leave the editor
+if keyboard_check_pressed (vk_escape) && !global.testing
+{
+	// TODO: A menu?
+	scr_editor_save_lvl (global.editing_lvl, 1)
+	global.lvl_name = noone
+	room_goto (rm_prelvl_editor)
+}

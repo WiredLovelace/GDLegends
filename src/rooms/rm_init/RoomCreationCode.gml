@@ -48,4 +48,7 @@ global.gcolor = c_red
 
 global.negrito = 0
 
+if !directory_exists ("levels")
+	directory_create ("levels")
+
 room_goto_next ()

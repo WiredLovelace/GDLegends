@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Popups",
-    "path": "folders/Objects/GUI/LevelEditor/Popups.yy",
+    "path": "folders/Objects/GUI/LevelEditor/Editor/Popups.yy",
   },
   "resourceVersion": "1.0",
   "name": "pop_lvlsettings_titles",

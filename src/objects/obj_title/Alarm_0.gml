@@ -1,6 +1,5 @@
 /// @description Login popup
 
-// TODO: On successful log-in, set `global.loggedin' to 1
 popup = instance_create (__view_get( e__VW.XView, 0 ) + (__view_get( e__VW.WView, 0 ) / 2), __view_get( e__VW.YView, 0 ) + (__view_get( e__VW.HView, 0 ) / 2), obj_title_popup)
 popup.title = "Log-In"
 popup.target_xscale = 3.5

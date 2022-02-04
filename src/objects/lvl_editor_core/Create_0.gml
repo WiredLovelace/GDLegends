@@ -1,11 +1,13 @@
 /// @description Initialisation
+if !variable_global_exists ("editing_lvl")
+	room_goto (rm_prelvl_editor)
+	
+scr_editor_load_lvl (global.editing_lvl)
+
 global.testing = 0 // 1 for testing the level
 
 global.bgcolor = c_white
 global.gcolor = c_white
-
-global.selecting_type = 0 // This is the type we are selecting. Check notes for more info.
-global.selecting_page = 0 // The page of the type we are selecting
 
 hide = 0 // Set to 1 to hide the UI
 lid = layer_get_id ("EditorCore")
@@ -53,6 +55,12 @@ rect = instance_create_layer (0, 0, "EditorCore", lvl_editor_gui)
 rect.depth = depth + 3
 
 // Editor variables
+global.selecting_type = 0 // This is the type we are selecting. Check notes for more info.
+global.selecting_page = 0 // The page of the type we are selecting
+
+if !variable_global_exists("lvl_name") || global.lvl_name == noone
+	global.lvl_name = "Unnamed"
+
 global.place_obj = noone // The object we have selected to build with
 global.selected_obj = noone // The object we have selected apply transformations to
 

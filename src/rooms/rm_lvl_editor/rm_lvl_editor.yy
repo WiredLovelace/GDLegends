@@ -63,8 +63,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Modes",
-    "path": "folders/Rooms/Modes.yy",
+    "name": "LevelEditor",
+    "path": "folders/Rooms/Modes/LevelEditor.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_lvl_editor",

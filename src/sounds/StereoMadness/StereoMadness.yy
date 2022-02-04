@@ -2,16 +2,16 @@
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
-  "preload": true,
-  "bitRate": 96,
-  "sampleRate": 22050,
+  "preload": false,
+  "bitRate": 128,
+  "sampleRate": 44100,
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "GameMusic",
+    "path": "audiogroups/GameMusic",
   },
-  "soundFile": "StereoMadness",
+  "soundFile": "StereoMadness.mp3",
   "duration": 86.8049,
   "parent": {
     "name": "Sounds",
@@ -19,6 +19,8 @@
   },
   "resourceVersion": "1.0",
   "name": "StereoMadness",
-  "tags": [],
+  "tags": [
+    "GameMusic",
+  ],
   "resourceType": "GMSound",
 }
