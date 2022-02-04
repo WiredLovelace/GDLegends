@@ -1,5 +1,7 @@
 instance_create (-182, obj_ground.y - 30, obj_player)
-audio_play_sound (global.music, 0, 1)
+
+var songs = tag_get_asset_ids("GameMusic", asset_sound)
+audio_play_sound (songs [global.music], 0, 1)
 
 with obj_trigger_par
 {

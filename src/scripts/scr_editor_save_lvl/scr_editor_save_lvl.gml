@@ -17,7 +17,7 @@ function scr_editor_save_lvl(fname, save_instances){
 	file_text_write_real (file, save_instances == 0 ? make_colour_rgb (0, 19, 200) : global.initial_gcolor)
 	file_text_writeln (file)
 	
-	file_text_write_real (file, save_instances == 0 ? StereoMadness : global.music)
+	file_text_write_real (file, save_instances == 0 ? 0 : global.music)
 	file_text_writeln (file)
 	
 	file_text_write_real (file, 0) // background sprite

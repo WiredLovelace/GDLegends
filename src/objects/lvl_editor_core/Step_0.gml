@@ -33,7 +33,7 @@ if (keyboard_check_pressed (vk_enter))
 		
 		camera_set_view_size (view_camera [0], 1280, 720)
 		
-		audio_play_sound (global.music, 1, 0)
+		audio_play_sound (songs [global.music], 1, 0)
 	}
 	else
 	{

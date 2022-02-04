@@ -4,7 +4,7 @@ draw_set_valign (fa_center)
 draw_set_halign (fa_center)
 draw_set_font (fnt_alata_big)
 draw_set_colour (c_white)
-draw_text (popup.x, popup.y - 200, audio_get_name (global.music))
+draw_text (popup.x, popup.y - 200, audio_get_name (songs [global.music]))
 
 draw_text (popup.x, popup.y - 100, "Design")
 draw_text ((popup.x - (popup.sprite_width / 3)) + 20, popup.y - 50, "BG")

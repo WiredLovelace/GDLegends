@@ -1,7 +1,9 @@
 /// @description Initialisation
 if !variable_global_exists ("editing_lvl")
 	room_goto (rm_prelvl_editor)
-	
+
+songs = tag_get_asset_ids("GameMusic", asset_sound)
+
 scr_editor_load_lvl (global.editing_lvl)
 
 global.testing = 0 // 1 for testing the level

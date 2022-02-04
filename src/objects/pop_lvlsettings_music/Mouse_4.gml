@@ -5,10 +5,12 @@ if !((global.negrito * -1) > depth)
 
 global.music += 1 * image_xscale
 
-if global.music == snd_dead || !audio_exists (global.music)
+if global.music > array_length (songs) - 1
 {
-	// TODO: Come to the last available song
-	global.music += 1 * -image_xscale
+	global.music = 0
+} else if global.music < 0
+{
+	global.music = array_length (songs) - 1
 }
 
 // show_debug_message (audio_get_name (global.music + (1 * image_xscale)))
