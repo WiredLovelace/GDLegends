@@ -2,7 +2,6 @@ function scr_crush() {
 	global.spdboost = 1
 	// TODO:Fireboost
 	audio_stop_all ()
-	// audio_emitter_free (global.music_emitter)
 	audio_play_sound (snd_dead, 1, 0)
 	// TODO: Cam shake
 	effd = instance_create (x, y, obj_par1)

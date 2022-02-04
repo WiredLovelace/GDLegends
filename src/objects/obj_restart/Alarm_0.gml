@@ -1,5 +1,5 @@
 instance_create (-182, obj_ground.y - 30, obj_player)
-audio_play_sound_on (global.music_emitter, global.music, 0, 1)
+audio_play_sound (global.music, 0, 1)
 
 with obj_trigger_par
 {
