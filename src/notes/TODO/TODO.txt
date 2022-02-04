@@ -1,3 +1,7 @@
+Modify a trigger settings in the editor
+
+Multiple object selection in editor
+
 Player experience background fill
 
   global.col basically, so we can store and restore user defined colours. Also, in the create event of all the objects whose colour can be changed, set

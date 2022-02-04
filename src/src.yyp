@@ -126,7 +126,6 @@
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":1,},
     {"id":{"name":"s_gui_home_ranking","path":"sprites/s_gui_home_ranking/s_gui_home_ranking.yy",},"order":1,},
     {"id":{"name":"s_gui_home_mission","path":"sprites/s_gui_home_mission/s_gui_home_mission.yy",},"order":3,},
-    {"id":{"name":"Editor","path":"notes/Editor/Editor.yy",},"order":2,},
     {"id":{"name":"s_gui_home_reward","path":"sprites/s_gui_home_reward/s_gui_home_reward.yy",},"order":5,},
     {"id":{"name":"s_gui_home_daily","path":"sprites/s_gui_home_daily/s_gui_home_daily.yy",},"order":7,},
     {"id":{"name":"scr_editor_load_lvl","path":"scripts/scr_editor_load_lvl/scr_editor_load_lvl.yy",},"order":1,},
